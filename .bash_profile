@@ -1,3 +1,7 @@
+alias cls="clear && printf '\e[3J'"
+alias flushdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder;"
+alias ll="ls -lahF"
+
 parse_git_branch() {
   local DIRTY STATUS
   STATUS=$(git status --porcelain 2>/dev/null)
