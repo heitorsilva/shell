@@ -1,2 +1,2 @@
-# bash
-My bash configurations
+# shell
+My shell configurations
